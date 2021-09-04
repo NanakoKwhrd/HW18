@@ -1,0 +1,290 @@
+#body{
+    display: flex;
+    flex-direction: row;
+    /* border: solid; */
+    height: auto;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+
+.titleName{
+    /* border: solid; */
+    margin-left: -25px;
+    margin-bottom: 4%;
+    
+
+  list-style-type: none;
+}
+
+#sideNavBar{
+width: 250px;
+/* border: solid; */
+/* justify-content: flex-start; */
+display: flex;
+flex-direction: column;
+
+    
+}
+
+
+
+#mainContent{
+    align-items: center;
+    text-align: center;
+    /* border: solid; */
+    width: 100%;
+    height: 100%;
+}
+
+.uxSkills{
+    display: block;
+    flex-direction: column;
+    border: solid 1px grey;
+    width:25%;
+    height: 250px;
+    margin: 2px;
+    margin-bottom: 15px;
+    padding:5px;
+
+}
+
+.uxSkills p{
+    font-size: small;
+}
+
+#card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+#aboutMe{
+    height: 30%;
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+
+
+
+#heroImage{
+   height: 65%;
+   width: 75%;
+   /* margin-left: 12%; */
+   background-position: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /* border: solid; */
+}
+
+#resume{
+   
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  
+    
+}
+
+.detailedInformation{
+    display: block;
+    
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+}
+
+footer{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* position: absolute;
+    bottom: 0; */
+    width:100%;
+    /* height: 2.5rem; */
+
+       
+   
+}
+
+.footer{
+    /* border:solid; */
+    width: 20%;
+    /* position: absolute;
+    bottom: 0;
+    width:100%;
+    height: 2.5rem; */
+
+
+}
+
+#heroImage img{
+    
+    width: 100%;
+    height:100%;
+    
+    
+}
+
+#heroImage{
+    
+    height: 300px;
+    background-image: url("../Images /Hero.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+#download{
+    
+background-color: white;
+margin:15px;
+padding: 10px;
+  
+}
+
+#seeMore{
+    height: 30px;
+   margin: 10px;
+   margin-top: -30px;
+}
+
+
+
+
+.grid{
+    display: grid;
+    /* border: solid; */
+    width: 75%;
+    margin: 10% auto;
+    /* margin-top: none;
+    margin-bottom: none; */
+    height: 430px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-areas:
+    "sample1 top"
+    "sample2 middle"
+    "sample3 bottom"
+    ;
+}
+
+#moreProjects{
+    margin-top: -100px;
+}
+
+#secondContent{
+/* border: solid; */
+display: block;
+text-align: center;
+align-items: center;
+
+}
+.sample1{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    /* border:solid 1px; */
+    grid-area: sample1;
+    border-top: solid 0.5px lightgrey;
+    
+    
+}
+.sample2{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    /* border:solid 1px; */
+    grid-area: sample2;
+    
+}
+.sample3{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    /* border:solid 1px; */
+    grid-area: sample3;
+    border-bottom: solid 0.5px lightgrey;
+    
+}
+
+.top{
+    grid-area: top;
+    /* border:solid 1px;
+    border-left: none; */
+    padding-top: 7px;
+    border-bottom: solid 0.5px lightgrey;
+    border-top: solid 0.5px lightgrey;
+    
+}
+.middle{
+    grid-area: middle;
+    /* border:solid 1px; */
+    border-left: none;
+    border-top: none;
+    padding-top: 7px;
+    border-bottom: solid 0.5px lightgrey;
+}
+.bottom{
+    grid-area: bottom;
+    /* border:solid 1px; */
+    border-left: none;
+    border-top: none;
+    padding-top: 7px;
+    border-bottom: solid 0.5px lightgrey;
+}
+
+
+#h1{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 70%;
+    /* border: solid; */
+    margin-top: -0.5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    height: 20px;
+}
+
+#headings{
+    border:solid
+}
+
+
+    #h12{
+     /* margin-bottom: -8%; */
+     margin-top: 10%;
+     /* border: solid; */
+    }
+
+    #uxSkills{
+
+        /* margin-top: -6%; */
+        margin-bottom: 8%;
+    }
+
+    @media only screen and (max-width: 600px){
+        #card {
+            /* display: block; */
+            /* width: 100%; */
+        
+        }}
